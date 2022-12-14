@@ -1,4 +1,5 @@
 import React from "react";
+import MainPic from "../MainPic/MainPic";
 const Body = () => {
   return (
     <>
@@ -11,6 +12,7 @@ const Body = () => {
         </p>
         <p>Создаю букеты.</p>
       </div>
+      <MainPic />
     </>
   );
 };

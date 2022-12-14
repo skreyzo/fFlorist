@@ -6,7 +6,7 @@ const Title = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="#">
+          <Link className="navbar-brand" to="/">
             SweetBuket
           </Link>
           <button
@@ -23,13 +23,8 @@ const Title = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">
+                <Link className="nav-link" aria-current="page" to="/">
                   Главная
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Мои работы
                 </Link>
               </li>
               <li className="nav-item">
@@ -38,7 +33,12 @@ const Title = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                {/* <Link className="nav-link" to="/all">
+                  Заказать
+                </Link> */}
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contacts">
                   Контакты
                 </Link>
               </li>
