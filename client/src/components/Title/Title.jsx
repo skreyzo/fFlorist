@@ -29,7 +29,7 @@ const Title = () => {
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/all">
-                  Заказать
+                  Каталог
                 </Link>
               </li>
               <li className="nav-item">

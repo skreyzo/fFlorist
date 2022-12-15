@@ -29,13 +29,13 @@ const MainPic = () => {
             data-bs-slide-to="2"
             aria-label="Slide 3"
           ></button>
-                 <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="3"
             aria-label="Slide 4"
           ></button>
-                         <button
+          <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="4"
@@ -52,14 +52,14 @@ const MainPic = () => {
             ></img>
 
             <div className="carousel-caption d-none d-md-block">
-              <h5>
+              <h1>
                 Использую только самые лучшие красивые и свежие продукты,выбирая
-                все тщательно.
-              </h5>
+                все тщательно
+              </h1>
             </div>
           </div>
           <div className="carousel-item">
-          <img
+            <img
               src="images/firstPic.jpeg"
               height="100%"
               width="100%"
@@ -67,11 +67,11 @@ const MainPic = () => {
             ></img>
 
             <div className="carousel-caption d-none d-md-block">
-              <h5>Круглосуточная доставка и самовывоз</h5>
+              <h1>Круглосуточная доставка и самовывоз</h1>
             </div>
           </div>
           <div className="carousel-item">
-          <img
+            <img
               src="images/firstPic.jpeg"
               height="100%"
               width="100%"
@@ -79,11 +79,13 @@ const MainPic = () => {
             ></img>
 
             <div className="carousel-caption d-none d-md-block">
-              <h5>Круглосуточная доставка и самовывоз</h5>
+              <h1>
+                Фиксированная цена, не меняется по факту готовности букета
+              </h1>
             </div>
           </div>
           <div className="carousel-item">
-          <img
+            <img
               src="images/firstPic.jpeg"
               height="100%"
               width="100%"
@@ -91,11 +93,14 @@ const MainPic = () => {
             ></img>
 
             <div className="carousel-caption d-none d-md-block">
-              <h5>Круглосуточная доставка и самовывоз</h5>
+              <h1>
+                Разнообразие букетов, композиций, всегда готова
+                экспериментировать,делать что то новое
+              </h1>
             </div>
           </div>
           <div className="carousel-item">
-          <img
+            <img
               src="images/firstPic.jpeg"
               height="100%"
               width="100%"
@@ -103,11 +108,10 @@ const MainPic = () => {
             ></img>
 
             <div className="carousel-caption d-none d-md-block">
-              <h5>
-                Использую только самые лучшие красивые и свежие продукты,выбирая
-                все тщательно.
-              </h5>
-              {/* <p>Некоторый репрезентативный заполнитель для третьего слайда.</p> */}
+              <h1>
+                Индивидуальный подход к каждому заказу.Учитываются вкусы и
+                пожелания, измененения
+              </h1>
             </div>
           </div>
         </div>
