@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 // import styled from "./card.module.css";
 
 const Card = ({ el }) => {
-  // console.log(el.photo);
   return (
     <>
       <div className="card" style={{ width: "18rem" }}>
